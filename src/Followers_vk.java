@@ -15,7 +15,7 @@ public class Followers_vk {
 		VkApiClient vk = new VkApiClient(transportClient);
 
 		UserActor ua = new UserActor(118971335,
-				"60698b8a60698b8a60698b8ae56001e9cb6606960698b8a3c3b281e937fa7dcb7b50104");
+				"a3b78eb8a3b78eb8a3b78eb8a9a3dfecf9aa3b7a3b78eb8ff3e539cb25ab8ee9dcea55e");
 	try {
 			GetFollowersResponse g=vk.users().getFollowers(ua).userId(118971335).execute();
 			List<Integer> lf=g.getItems();
@@ -25,7 +25,7 @@ public class Followers_vk {
 				Thread.sleep(500);
 				//System.out.println(b);
 				VkUsers h1 = new VkUsers(118971335,
-						"60698b8a60698b8a60698b8ae56001e9cb6606960698b8a3c3b281e937fa7dcb7b50104");
+						"a3b78eb8a3b78eb8a3b78eb8a9a3dfecf9aa3b7a3b78eb8ff3e539cb25ab8ee9dcea55e");
 
 				String c = String.valueOf(b);
 				//System.out.println(h1.getVkUser(c).getFirstName());

@@ -41,8 +41,8 @@ public class VkUsers {
 
         UserActor ua = new UserActor(actorId, token);
         ArrayList<UserField> ufs = new ArrayList<>();
-        ufs.add(UserField.CITY);
-        ufs.add(UserField.SCHOOLS);
+        //ufs.add(UserField.CITY);
+        //ufs.add(UserField.SCHOOLS);
         //ufs.add(UserField.SEX);
         ufs.add(UserField.EDUCATION);
         ufs.add(UserField.INTERESTS);
